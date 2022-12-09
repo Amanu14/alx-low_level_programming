@@ -13,14 +13,14 @@
 int main(void)
 {
 char alp[26] = "abcdefghijklmnopqrstuvwxyz";
-char caps[26]="ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+char caps[26] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 int i;
 
 for (i = 0; i < 26; i++)
 {
 putchar(alp[i]);
 }
-for(i=0; i<26; i++)
+for (i = 0; i < 26; i++)
 {
 putchar(caps[i]);
 }
