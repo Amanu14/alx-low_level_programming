@@ -18,8 +18,6 @@ srand(time(0));
 n = rand() - RAND_MAX / 2;
 /* your code goes there */
 
-/*convert n to positive integer*/
-i = abs (n);
 i = i % 10;
 
 if (i > 5)
