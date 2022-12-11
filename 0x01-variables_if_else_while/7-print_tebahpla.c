@@ -2,16 +2,15 @@
 /**
  * main - Prints alphabet in reversed order
  *
- * And Return: Always 0 (Success)
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
-  int i;
-
-  for (i = 122; i > 96; i--)
-    {
-      putchar(i);
-    }
-  putchar('\n');
-  return (0);
+int i;
+for (i = 122; i > 96; i--)
+{
+putchar(i);
+}
+putchar('\n');
+return (0);
 }
