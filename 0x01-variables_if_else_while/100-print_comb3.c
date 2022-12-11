@@ -1,34 +1,37 @@
 #include <stdio.h>
 
 /**
- * main - Prints numbers between 0 to 9 with commas and spaces.
+ * main - Prints numbers between 00 to 89.
  *
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-int i;
-int y;
-int x;
+int i, e;
 
-for (i = 48; i < 58; i++)
+i = 48;
+e = 48;
+
+while (e < 58)
 {
-y=i+1;
-for (x = y; x < 58; x++)
+i = 48;
+while (i < 58)
 {
-putchar(i);  
-putchar(x);
-if (i != 56)
+if (e != i && e < i)
 {
-putchar(',');
+putchar(e);
+putchar(i);
+if (i == 57 && e == 56)
+{
+break;
 }
-if (i != 57)
-{
+putchar(',');
 putchar(' ');
 }
+i++;
 }
+e++;
 }
 putchar('\n');
 return (0);
 }
-
