@@ -7,28 +7,28 @@
  */
 int main(void)
 {
-  int i;
-  int y;
-  int x;
+int i;
+int y;
+int x;
 
-  for (i = 48; i < 58; i++)
-    {
-      y=i+1;
-      for (x = y; x < 58; x++)
-	{
-	  if (i != 48)
-	    {
-	      putchar(' ')
-		}
-	  putchar(i);  
-	  putchar(x);
-	  if (i != 57)
-	    {
-	      putchar(',');
-	    }
-	}
-    }
-  putchar('\n');
-  return (0);
+for (i = 48; i < 58; i++)
+{
+y=i+1;
+for (x = y; x < 58; x++)
+{
+if (i != 48)
+{
+putchar(' ');
+}
+putchar(i);  
+putchar(x);
+if (i != 57)
+{
+putchar(',');
+}
+}
+}
+putchar('\n');
+return (0);
 }
 
