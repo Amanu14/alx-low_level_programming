@@ -22,9 +22,13 @@ putchar(' ');
 }
 putchar(i);  
 putchar(x);
+if (i != 56)
+{
+putchar(",");
+}
 if (i != 57)
 {
-putchar(',');
+putchar(" ");
 }
 }
 }
