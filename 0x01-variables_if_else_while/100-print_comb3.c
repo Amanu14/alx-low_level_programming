@@ -13,9 +13,13 @@ int main(void)
 
   for (i = 48; i < 58; i++)
     {
-      y=i;
+      y=i+1;
       for (x = y; x < 58; x++)
 	{
+	  if (i != 48)
+	    {
+	      putchar(' ')
+		}
 	  putchar(i);  
 	  putchar(x);
 	  if (i != 57)
