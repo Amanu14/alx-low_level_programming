@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-* _isalpha - checks if aphabet is lower case.
+* print_sign - checks if number is positive negative or zero.
 *
 *@n: An ASCII character
 *
