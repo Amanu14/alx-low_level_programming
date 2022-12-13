@@ -3,17 +3,20 @@
 /**
 * _islower - checks if aphabet is lower case.
 *
-* Return: Always 0 (Success)
+*@c: An ASCII character
+*
+* Return: 1 if character case is lower 0 for anything else
 */
+
 int _islower(int c)
 {
 if (c > 96 && c < 123)
 {
-return(1);
+return (1);
 }
-else 
+else
 {
-return(0);
+return (0);
 }
 _putchar('\n'); 
 }
