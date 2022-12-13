@@ -1,0 +1,6 @@
+#ifndef _fndef_
+#define _fndef_
+
+int _putchar(char);
+
+#endif
