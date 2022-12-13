@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * mainr - Prints sum of multiples of 3 and 5
+ * main - Prints sum of multiples of 3 and 5
  *
  * Return: no return
  */
