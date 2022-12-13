@@ -20,6 +20,6 @@ sum =sum +a;
 }
 printf("%d", sum);
 printf("\n");
-
+return (0);
 }
 }
