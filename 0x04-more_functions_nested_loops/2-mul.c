@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * _isdigit - checks if parameter is an uppercase character.
+ * mul - multiplication of two numbers.
  * @c: input character.
- * Return: 1 if is an uppercase character, 0 in other case.
+ * Return: always returns multiplication result.
  */
 
 int mul(int a, int b)
