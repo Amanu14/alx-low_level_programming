@@ -2,7 +2,8 @@
 
 /**
  * mul - multiplication of two numbers.
- * @c: input character.
+ * @a: input number.
+ * @b: another input number.
  * Return: always returns multiplication result.
  */
 
