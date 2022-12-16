@@ -1,9 +1,8 @@
 #include "main.h"
 
 /**
- * mul - multiplication of two numbers.
- * @a: input number.
- * @b: another input number.
+ * print_numbers - Prints number 0 to 9
+ * 
  * Return: always returns multiplication result.
  */
 
@@ -14,6 +13,6 @@ for (i = 48, i < 58, i++)
 {
 printf("%c", i);
 }
- printf("\n");
+printf("\n");
 return (i);
 }
