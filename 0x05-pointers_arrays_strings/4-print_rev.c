@@ -1,5 +1,5 @@
 #include "main.h"
-
+0;276;0c
 /**
  * print_rev - reverses a string.
  * @s: input string.
@@ -8,19 +8,16 @@
 
 void print_rev(char *s)
 {
-int i, j, l];
-char *str;
+int count = 0;
 
-str = s;
-l=(strlen(str) -1);
-char temp[l + 1];
-printf("lengthis %d\n", l);
-for(i=l;i>=0;i--)
+while (count >= 0)
 {
-temp[j]=str[i];
-j++;
+if (s[count] == '\0')
+break;
+count++;
 }
 
-printf("\n:%s",temp);
-
+for (count--; count >= 0; count--)
+_putchar(s[count]);
+_putchar('\n');
 }
