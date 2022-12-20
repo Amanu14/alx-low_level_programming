@@ -1,10 +1,12 @@
 #include "main.h"
 #include <stdio.h>
+
 /**
  * puts_half - prints half of a string.
  * @str: input string.
  * Return: no return.
  */
+
 void puts_half(char *str)
 {
 int count = 0, i;
@@ -15,6 +17,7 @@ if (str[count] == '\0')
 break;
 count++;
 }
+
 if (count % 2 == 1)
 i = count / 2;
 else
