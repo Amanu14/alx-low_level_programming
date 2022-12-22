@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * _strcmp - appends the src string to the dest string,
+ * string_toupper - appends the src string to the dest string,
  * @stp:the first string
  *
- * Return: return dest.
+ * Return: return stp.
  */
 
 char *string_toupper(char *stp)
