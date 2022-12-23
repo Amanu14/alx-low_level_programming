@@ -4,7 +4,7 @@
  * cap_string - appends the src string to the dest string,
  * @s:the first string
  * 
- * Return: return dest.
+ * Return: return s.
  */
 
 char *cap_string(char *s)
