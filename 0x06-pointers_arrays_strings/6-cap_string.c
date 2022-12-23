@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _strcmp - appends the src string to the dest string,
+ * cap_string - appends the src string to the dest string,
  * @s:the first string
  * 
  * Return: return dest.
