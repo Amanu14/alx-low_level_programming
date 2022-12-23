@@ -3,7 +3,6 @@
 /**
  * cap_string - appends the src string to the dest string,
  * @s:the first string
- * 
  * Return: return s.
  */
 
